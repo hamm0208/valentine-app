@@ -22,7 +22,7 @@ function Moments() {
 		<Swiper
 			loop={true}
 			pagination={{
-			dynamicBullets: true,
+				type: "progressbar",
 			}}
 			modules={[Pagination]}
 			className="mySwiper"

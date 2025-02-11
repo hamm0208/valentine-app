@@ -139,7 +139,7 @@ body{
 	border-radius: 12px;
 	font-size: 1.1rem;
 	color: white;
-	background: rgb(235, 42, 42);;
+	background: rgb(235, 42, 42);
 	will-change: transform;
 	transform: translateY(-4px);
 	transition:
@@ -270,7 +270,16 @@ body{
 		margin: 20px;
 	}
 }
-.swiper-pagination-bullet {
-	border: 5px solid rgb(255, 0, 0);
-	opacity: 1;
+.swiper-pagination-progressbar {
+	background: rgba(124, 124, 124, 0.449) !important;
+	height: 4px;
+	border-radius: 5px;
   }
+  
+  /* The moving progress bar fill */
+  .swiper-pagination-progressbar-fill {
+	background: rgb(235, 42, 42) !important;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5px;
+  }
+  
