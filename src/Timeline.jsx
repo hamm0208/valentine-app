@@ -75,7 +75,7 @@ function Timeline() {
 							{index % 2 === 0 && content}
 						</div>
 
-						<div className="col-2 col-xl-1 d-flex flex-column justify-content-center align-items-center timeline-line">
+						<div className="col-3 col-xl-1 d-flex flex-column justify-content-center align-items-center timeline-line">
 							<h5>{event.date}</h5>
 						</div>
 
