@@ -11,39 +11,35 @@ import village2 from './village2.jpg';
 const moments = {
 	baking: {
 	  image: baking,
-	  description: "Baking fresh bread and pastries in a cozy kitchen.",
+	  description: "When we baked cookies together, because we were craving for Subway cookies but wanted to make it ourselves",
 	},
 	car: {
 	  image: car,
-	  description: "A sleek sports car parked on a scenic road.",
+	  description: "THE MOMENT WHEN I HAD MY FIRST CAR AND WE TOOK PICTURES OF IT LOL",
 	},
 	cooking: {
 	  image: cooking,
-	  description: "Preparing a delicious homemade meal with fresh ingredients.",
+	  description: "I enjoy cooking a lot with you, I enjoy being in the kitchen and trying weird combinations of food just for you to be disgusted at me.",
 	},
 	food: {
 	  image: food,
-	  description: "A beautifully plated gourmet dish ready to be served.",
+	  description: "The morning breakfast at The Village, it was so good. Oh and also, I enjoy trying new food with you",
+	},
+	village: {
+		image: village,
+		description: "The village",
 	},
 	house: {
 	  image: house,
-	  description: "A modern house with a stunning garden and pool.",
+	  description: "Me always coming to your house for any festives or celebrations.",
 	},
 	pool: {
 	  image: pool,
-	  description: "Relaxing by the pool on a sunny afternoon.",
+	  description: "Us going to Bear Garden after being at the beach",
 	},
 	skincare: {
 	  image: skincare,
-	  description: "A refreshing skincare routine with natural products.",
-	},
-	village: {
-	  image: village,
-	  description: "A peaceful village with charming cottages and greenery.",
-	},
-	village2: {
-	  image: village2,
-	  description: "An old European village with cobblestone streets.",
-	},
+	  description: "You always make me use skincare, bc you want me to take care of my face",
+	}
 };
 export default moments;

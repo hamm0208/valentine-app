@@ -1,5 +1,4 @@
 *{
-	color: white;
 	margin: 0px;
 	padding: 0px;
 	font-family: "Sour Gummy", serif;
@@ -7,9 +6,6 @@
 	font-weight: normal;
 	font-style: normal;
 	letter-spacing: 2px;
-}
-body{
-	background-color: rgb(34, 34, 34);
 }
 .sour-gummy {
 	font-family: "Sour Gummy", serif;
@@ -31,6 +27,8 @@ body{
 	color: rgb(235, 42, 42);
 }
 .hero-wrapper{
+	color: white;
+	background-color: rgb(34, 34, 34);
 	padding-bottom: 100px;
 }
 .header-wrapper{
@@ -270,16 +268,125 @@ body{
 		margin: 20px;
 	}
 }
+.mySwiper{
+	border-bottom: 4px solid rgb(235, 42, 42);
+}
 .swiper-pagination-progressbar {
 	background: rgba(124, 124, 124, 0.449) !important;
 	height: 4px;
 	border-radius: 5px;
   }
   
-  /* The moving progress bar fill */
-  .swiper-pagination-progressbar-fill {
+.swiper-pagination-progressbar-fill {
 	background: rgb(235, 42, 42) !important;
 	transition: all 0.3s ease-in-out;
 	border-radius: 5px;
+}
+
+.timeline-wrapper{
+	background-color: white;
+	color: black;
+	h2{
+		text-align: center;
+		font-size: 48px;
+		color: black;
+	}
+	.timeline{
+		color: black;
+	}
+	.timeline-year{
+		background-color: rgb(247, 64, 64);
+		border-top: 1px solid black;
+		color: white;
+		padding: 3px 10px;
+		margin: 0px;
+		cursor: pointer;
+	}
+}
+.events-wrapper{
+	background-color: rgb(255, 255, 255);
+	padding: 20px 10px;
+}
+.event{
+	width: 100%;
+}
+.event p{
+	margin: 0px;
+}
+.event-src{
+	width: 500px;
+	height: 250px;
+}
+
+.event-img{
+	border-radius: 20px;
+	width: 100%;
+	background-color: black;
+
+	height: 100%;
+	object-fit:contain;
+}
+@media (max-width: 1200px) {
+	.event-src{
+		width: 350px;
+		height: 250px;
+	}
+	.event-content h4{
+		align-items: start;
+		justify-content: start;
+		text-align: start;
+	}
+	.event-content p{
+		margin-bottom: 20px;
+	}
+	.event{
+		border-bottom: 1px solid black;
+	}
+}
+.timeline-line {
+	position: relative;
+	h5{
+		background-color: white;
+		z-index: 99;
+	}
+}
+
+.timeline-line::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	width: 2px;
+	background-color: black; /* Change color as needed */
+	transform: translateX(-50%);
+}
+.events-wrapper {
+	overflow: hidden;
+	transition: height 0.4s ease-out;
   }
   
+  .icon-transition {
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-transition.rotated {
+	transform: rotate(180deg);
+  }
+.footer-wrapper{
+	background-color: #222222;
+	color: white;
+	margin: 0px;
+	p{
+		margin: 0px;
+		padding: 20px;
+		background-color: #222222;
+		font-family: "Sour Gummy", serif;
+		font-size: 15px;
+	}
+	.footer-signoff{
+		font-family: "Caveat", serif;
+		font-size: 20px;
+		text-align: end;
+	}
+}

@@ -18,7 +18,7 @@ function Moments() {
   return (
 	<div className="moments" id="moments">
 		<h2>Our Moments</h2>
-		<p className="moments-guidance">(Click/Tap to view description)</p>
+		<p className="moments-guidance">(Click/Tap to view description, Swipe to View Photos)</p>
 		<Swiper
 			loop={true}
 			pagination={{
